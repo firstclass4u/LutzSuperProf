@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tableView" layoutX="13.0" layoutY="26.0" prefHeight="297.0" prefWidth="574.0">
+         <columns>
+            <TableColumn fx:id="firstnameColumn" prefWidth="243.99996948242188" text="Vorname" />
+            <TableColumn fx:id="lastnameColumn" prefWidth="329.3333740234375" text="Nachname" />
+         </columns>
+      </TableView>
+      <Button fx:id="deleteButton" layoutX="30.0" layoutY="346.0" mnemonicParsing="false" onAction="#onDeleteButtonClicked" text="Löschen" />
+      <Button fx:id="addButton" layoutX="106.0" layoutY="346.0" mnemonicParsing="false" onAction="#onAddButtonClicked" text="Hinzufügen" />
+      <Button fx:id="endButton" layoutX="505.0" layoutY="346.0" mnemonicParsing="false" onAction="#onEndButtonClicked" text="Beenden" />
+      <Button fx:id="viewButton" layoutX="203.0" layoutY="346.0" mnemonicParsing="false" onAction="#onViewButtonClicked" text="Ansehen" />
+   </children>
+</AnchorPane>
