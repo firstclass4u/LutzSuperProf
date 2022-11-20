@@ -1,5 +1,3 @@
-package me.lutzsuperprof;
-
 public class VerketteteListe {//Implement a linked list
 
     private Node head;

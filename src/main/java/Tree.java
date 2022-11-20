@@ -1,5 +1,3 @@
-package me.lutzsuperprof;
-
 public class Tree {
 
     /*
